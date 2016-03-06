@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GMB AngularJs Challenge</title>
+            <!-- css links -->
+  <link rel="stylesheet" media="all" href="css/bootstrap.min.css">
+   <link rel="stylesheet" media="all" href="css/main.css" type="text/css">
+
+   <!-- libraries -->
+    <script src="js/lib/angular.min.js"></script>
+   <!--  <script src="js/lib/jquery-1.11.3.min.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script> -->
+	<script src="js/lib/angular-route.min.js"></script>
+  
+    <!-- javascript  files -->
+    <script src="js/app.js"></script>
+      <script src="js/controllers/homeCtrl.js"></script>
+        <script src="js/controllers/searchPageCtrl.js"></script>
+    <script src="js/controllers/detailsPageCtrl.js"></script>
+    
+    <script src="js/modules/filter.js"></script>
+	<script src="js/modules/localStorage.js"></script>
+	<script src="js/modules/headerDirective.js"></script>
+
+</head>
+<body id="body" data-ng-app="Food">
+  <header-directive></header-directive>
+ <div style="height:8em;"></div>
+     <div class="viewWrapper" ng-view></div>
+        
+</body>
+</html>

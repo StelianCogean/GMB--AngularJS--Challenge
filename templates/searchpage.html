@@ -1,0 +1,30 @@
+          <div class="searchFood fullWidth">
+          <label class="item item-input fullWidth"><input
+					class="widthClass70" type="text" placeholder="Search Food" ng-model="searchInput">
+					<div class="GoButton" ng-click="searchItem(searchInput)"><button>GO</button></div>
+		</label>
+		
+		</div>
+		
+		
+		
+		<div class="table-responsive">          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Brand</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-click="addToLocalStorage(product.fields)" ng-repeat = "product in results">
+        <td>{{product.fields.item_name}}</td>
+        <td>{{product.fields.brand_name}}</td>
+       
+        
+      </tr>
+    </tbody>
+  </table>
+  </div></div>
+ </div>
+ 

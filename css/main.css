@@ -1,0 +1,10 @@
+
+.header{ position:absolute; height:1.9em;background-color:#6699FF; font-family: "Times New Roman"; font-size: 20px; width:100%;margin-bottom:3px; display:inline;}
+.homeWrapper{position:absolute; top:8em;}
+.fullWidth{width:100%;}
+.widthClass{width:100%; border-radius:2px;}
+.button{position:absolute;background-color:#6699FF;font-family: "Times New Roman";margin-right:30px;}
+.widthClass70{width:85%; border-radius:2px;}
+.GoButton{position:relative;display:inline-block;margin-right:0px;}
+.details{font-size:18px; font-family: "Times New Roman"; }
+.bolded{font-weight: bold;}
